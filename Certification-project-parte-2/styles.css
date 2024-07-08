@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(14, 14, 62);
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3, h5, p{
+    color: white;
+  }
+  
+  h1, h2, h5 {
+     text-align: center;
+  }
+  
+  
+  #image {
+    max-width: 750px;
+  }
+
+  #image2 {
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  #image3 {
+    width: 600px;
+    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  #tribute-info {
+    margin: 0 40px;
+  }
