@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="wifth=device-width, initial-scale=1.0">
+  <title>freeCodeCamp-Survey-Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <img src="https://burst.shopifycdn.com/photos/office-team-business-meeting.jpg?width=373&format=pjpg&exif=0&iptc=0">
+  <h1 id="title">Formulario teste</h1>
+  <p id="description">Informe seus dados para realizar o cadastro.</p>
+  <br>
+  <div>
+    <div></div>
+    <form method="post" id="survey-form">
+      <label id="name-label" for="name">Nome<input id="name" type="text" required
+          placeholder="Dgite seu nome..." /></label><br>
+      <label id="email-label" for="email">Email<input id="email" type="email" required
+          placeholder="Digite seu email..." /></label><br>
+      <label id="number-label" for="number">Idade<input id="number" type="number" min="13" max="120" required
+          placeholder="Idade..." /></label><br>
+      <h3>Você é uma pessoa Fisica ou Juridica?</h3>
+      <select id="dropdown">
+        <option>Fisica</option>
+        <option>juridica</option>
+      </select>
+      <h3>Selecione uma opção:</h3>
+      <label for=""><input type="radio" name="botao" value="1" />Vendas</label><br>
+      <label for=""><input type="radio" name="botao" value="2" />Compras</label>
+
+      <h3>Termos e condinções</h3>
+      <label for=""><input type="checkbox" value="3" />Eu concordo com os termos e condições.</label><br>
+      <label for=""><input type="checkbox" value="4" />Desejo receber mensagens de novidades.</label>
+      <h3>Deseja fazer um comentario?</h3>
+      <textarea placeholder="comente aqui..."></textarea>
+      <br><br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+    <div></div>
+  </div>
+  <br>
+</body>
+
+</html>
